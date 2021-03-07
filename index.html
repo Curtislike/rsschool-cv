@@ -9,26 +9,33 @@
 </head>
 
 <body>
-    <div class="container">
+    <header class="main_info">
+        <h1 class="name">Hanna Yurkevich</h1>
+        <p class="location">Minsk, Belarus</p>
+    </header>
+    <main>
+    <article class="container">
         <section>
-            <div>
-                <div><img class="photo" src="photo.jpg" alt="Hanna Yurkevich"></div>
-            </div>
-            <div>
-                <div class="name">Hanna Yurkevich</div>
-                <div class="phone">Phone: +37529-268-61-68</div>
-                <div class="mail">Email: anna-olesh@mail.ru</div>
-                <div class="linkedin"><a href="https://www.linkedin.com/in/anna-yurkevich/">LinkedIn: Hanna Yurkevich</a></div>
+            <figure>
+                <img class="photo" src="photo.jpg" alt="Hanna Yurkevich">
+            </figure>
+            <div class="personal_info">
+                <ul class="info_container">
+                    <li class="phone">Phone: +37529-268-61-68</li>
+                    <li class="mail">Email: anna-olesh@mail.ru</li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/anna-yurkevich/">LinkedIn: Hanna Yurkevich</a></li>
+                    <li class="github"><a href="https://github.com/curtislike">GitHub: Curtislike</a></li>
+                </ul>
             </div>
         </section>
 
         <section>
-            <div class="title">Summary</div>
+            <h2 class="title">Summary:</h2>
             <div class="summary_container">I like to develop myself and I always try to learn something new. My goal is to get skills in programming. I am a responsible and purposeful person, always try to be proactive.</div>
         </section>
 
         <section>
-            <div class="title">Skills</div>
+            <h2 class="title">Skills:</h2>
             <div class="skills_container">
                 <ul>
                     <li>HTML</li>
@@ -39,7 +46,7 @@
         </section>
 
         <section>
-            <div class="title">Code example</div>
+            <h2 class="title">Code example:</h2>
             <div class="code_container">
                 <div class="code_description">This function returns the sum of positive numbers in array:</div>
                 <div class="code">
@@ -57,8 +64,9 @@
         </section>
 
         <section>
-            <div class="title">Education</div>
-            <div class="education_container"><ul>
+            <h2 class="title">Education:</h2>
+            <div class="education_container">
+                <ul>
                 <li>2012 - 2017 Belarusian National Technical University, faculty of transport communication, department of road design</li>
                 <li>Coursera: Programming Foundations with JavaScript, HTML and CSS</li>
                 <li>Codewars practicing</li>
@@ -67,10 +75,21 @@
         </section>
 
         <section>
-            <div class="title">English level</div>
+            <h2 class="title">English level:</h2>
             <div class="english_container">B1 - Intermediate English</div>
         </section>
 
-    </div>
+    </article>
+    </main>
+    <footer class="footer_container">
+        <div class="footer_links">
+            <a href="https://github.com/curtislike" target="blank">
+                <img class="footer_link_picture_github" src="GitHub-Mark-64px.png">
+            </a>
+            <a href="https://rs.school/js/" target="blank">
+                <img class="footer_link_picture_rss" src="rs_school_js.svg">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
